@@ -263,6 +263,10 @@ body {
   font-size: 1rem;
 }
 
+.card__text + .card__text {
+  margin-top: 1rem;
+}
+
 /* ---- Skills ---- */
 
 .skills {
@@ -329,6 +333,11 @@ body {
   font-weight: 600;
   padding: 0.25rem 0.6rem;
   border-radius: 999px;
+}
+
+.project__tags .tag--favorite {
+  background: #ffd166;
+  color: #6b4400;
 }
 
 .project__links {
